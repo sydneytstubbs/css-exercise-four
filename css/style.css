@@ -1,4 +1,113 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* background*/
 body {
   background-color: #dadada;
   font-size: 10px;
+  font-family: system-ui, sans-serif;
+
+
 }
+ /* Modern Luxury Travel Box Container */
+.container {
+  background-color: #dadada;
+  margin: 0 auto;
+  text-align: center;
+
+
+
+}
+
+
+/* Page Title  */
+body h1 {
+  font-family: monospace, sans-serif;
+  font-size: 2em;
+  letter-spacing: 150%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+
+/* Location Titles */
+}
+
+div h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 3em;
+  padding: 1em;
+  position: relative;
+  text-align: left;
+  text-transform: none;
+
+}
+
+/* Background */
+
+div {
+    background-color: #d5f4e6;
+    display: inline-block;
+}
+
+/* Image Containers*/
+.preview {
+  min-height:250px;
+  min-width: 200px;
+  min-width: 300px;
+  max-width: 300px;
+  margin: 10px;
+  width: 100%;
+
+}
+
+/* Images */
+.baku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.london {
+  background-image: url(../images/london.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.madrid {
+  background-image: url(../images/madrid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+.rome {
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+}
+
+/* Media Queries */
+@media screen and (min-width: 575px){
+.preview {
+    float: left;
+    margin: 1%;
+    width: 50%;
+
+  }
+
+
+@media screen and (min-width: 991px){
+  .preview {
+      float: left;
+      width: 20%%;
+      min-height: 250px;
+      display: inline-block;}
+    }
