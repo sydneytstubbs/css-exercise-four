@@ -7,25 +7,18 @@ body {
   background-color: #dadada;
   font-size: 10px;
   font-family: system-ui, sans-serif;
-
-
 }
  /* Modern Luxury Travel Box Container */
 .container {
   background-color: #dadada;
   margin: 0 auto;
   text-align: center;
-
-
-
 }
-
 
 /* Page Title  */
 body h1 {
   font-family: monospace, sans-serif;
   font-size: 2em;
-  letter-spacing: 150%;
   padding-bottom: 40px;
   padding-top: 10px;
   text-transform: uppercase;
@@ -53,12 +46,9 @@ div {
 
 /* Image Containers*/
 .preview {
-  min-height:250px;
-  min-width: 200px;
-  min-width: 300px;
-  max-width: 300px;
-  margin: 10px;
+  margin: 1% auto;
   width: 100%;
+  height: 300px;
 
 }
 
@@ -95,19 +85,25 @@ div {
 }
 
 /* Media Queries */
-@media screen and (min-width: 575px){
+@media screen and (min-width: 600px){
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 .preview {
-    float: left;
-    margin: 1%;
-    width: 50%;
-
+  float: left;
+  margin: 1%;
+  width: 48%;
+  height: 200px;
   }
 
-
-@media screen and (min-width: 991px){
+@media screen and (min-width: 900px){
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
   .preview {
-      float: left;
-      width: 20%%;
-      min-height: 250px;
-      display: inline-block;}
+    float: left;
+    height: 200px;
+    width: 22%;
     }
